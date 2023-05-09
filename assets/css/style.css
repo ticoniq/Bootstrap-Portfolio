@@ -59,7 +59,26 @@ body {
 }
 
 .about {
-  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
   background-color: #fff;
   padding: 10rem 0;
+}
+
+/* footer */
+.foot {
+  background: #fff;
+}
+
+.footer {
+  background-image: url("../images/contact-bg.png");
+  border-top-left-radius: 180px;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  background-size: 90%;
+  height: 846px;
+}
+
+.footer .footer-text {
+  padding-top: 141px;
 }
