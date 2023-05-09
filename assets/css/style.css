@@ -53,7 +53,15 @@ body {
   padding: 12rem 3rem;
 }
 
-.showcase .showcase-text ul li a {
+.social li a {
   color: #505f79;
   margin-right: 10px;
 }
+
+.about {
+  border-top-left-radius: 160px;
+  background-color: #fff;
+  padding: 10rem 0;
+}
+
+
