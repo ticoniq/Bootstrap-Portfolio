@@ -82,3 +82,34 @@ body {
 .footer .footer-text {
   padding-top: 141px;
 }
+
+@media screen and (max-width: 480px) {
+  .showcase .container {
+    background-image: url("../images/header-mobile.png");
+    background-size: contain;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    height: 846px;
+  }
+
+  .showcase .showcase-text {
+    padding: 5rem 3rem;
+  }
+
+  .footer {
+    background-image: url("../images/contact-mobile.png");
+    border-top-left-radius: 60px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 779px;
+  }
+
+  .footer .footer-text {
+    padding-top: 80px;
+  }
+
+  .footer button {
+    float: left;
+  }
+}
