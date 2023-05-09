@@ -25,3 +25,28 @@ body {
   font-size: 15px;
   color: #344563;
 }
+
+.showcase {
+  background-color: #fff;
+  border-bottom-left-radius: 160px;
+}
+
+.showcase .container {
+  background-image: url("../images/desktop_bg.png");
+  background-size: contain;
+  background-position: center 48px;
+  background-repeat: no-repeat;
+  height: 846px;
+}
+
+.showcase .showcase-text {
+  max-width: 920px;
+  padding: 12rem 3rem;
+}
+
+.showcase .showcase-text ul li a {
+  color: #505f79;
+  margin-right: 10px;
+}
+
+
